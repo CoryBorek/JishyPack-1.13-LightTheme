@@ -2,10 +2,10 @@
   "variants": {
     "": [
       {
-        "model": "block/poppy"
+        "model": "block/houstonia"
       },
       {
-        "model": "block/poppy/0"
+        "model": "block/houstonia/0"
       }
     ]
   }

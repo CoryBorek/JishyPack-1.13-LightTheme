@@ -1,111 +1,450 @@
 {
-	"credit": "Made with Blockbench",
-	"textures": {
-		"0": "custom/flags/pole",
-		"particle": "custom/flags/pole"
-	},
-	"elements": [
-		{
-			"from": [5.7, 0, 7.7],
-			"to": [6, 15.8, 8],
-			"faces": {
-				"north": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"east": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"south": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"west": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"up": {"uv": [0, 0, 0.3, 0.3], "texture": "#0"},
-				"down": {"uv": [0, 0, 0.3, 0.3], "texture": "#0"}
-			}
-		},
-		{
-			"from": [6.3, 0, 7.7],
-			"to": [6.6, 15.8, 8],
-			"faces": {
-				"north": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"east": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"south": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"west": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"up": {"uv": [0, 0, 0.3, 0.3], "texture": "#0"},
-				"down": {"uv": [0, 0, 0.3, 0.3], "texture": "#0"}
-			}
-		},
-		{
-			"from": [6, 0, 7.4],
-			"to": [6.3, 15.8, 7.7],
-			"faces": {
-				"north": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"east": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"south": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"west": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"up": {"uv": [0, 0, 0.3, 0.3], "texture": "#0"},
-				"down": {"uv": [0, 0, 0.3, 0.3], "texture": "#0"}
-			}
-		},
-		{
-			"from": [6, 0, 7.7],
-			"to": [6.3, 15.8, 8.3],
-			"faces": {
-				"north": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"east": {"uv": [0, 0, 0.6, 15.8], "texture": "#0"},
-				"south": {"uv": [0, 0, 0.3, 15.8], "texture": "#0"},
-				"west": {"uv": [0, 0, 0.6, 15.8], "texture": "#0"},
-				"up": {"uv": [0, 0, 0.3, 0.6], "texture": "#0"},
-				"down": {"uv": [0, 0, 0.3, 0.6], "texture": "#0"}
-			}
-		},
-		{
-			"from": [6.1, 9.7, -1.4],
-			"to": [6.2, 15.3, 7.4],
-			"color": 6,
-			"faces": {
-				"north": {"uv": [0, 0, 0.1, 5.6], "texture": "#missing"},
-				"east": {"uv": [0, 0, 8.8, 5.6], "texture": "#missing"},
-				"south": {"uv": [0, 0, 0.1, 5.6], "texture": "#missing"},
-				"west": {"uv": [0, 0, 8.8, 5.6], "texture": "#missing"},
-				"up": {"uv": [0, 0, 0.1, 8.8], "texture": "#missing"},
-				"down": {"uv": [0, 0, 0.1, 8.8], "texture": "#missing"}
-			}
-		}
-	],
-	"display": {
-		"thirdperson_righthand": {
-			"translation": [2, 7, 1]
-		},
-		"thirdperson_lefthand": {
-			"translation": [-2, 7, 1]
-		},
-		"firstperson_righthand": {
-			"translation": [4.25, 2.25, 0]
-		},
-		"firstperson_lefthand": {
-			"translation": [0, 2.25, 0]
-		},
-		"ground": {
-			"translation": [2.25, 8, 0.25]
-		},
-		"gui": {
-			"rotation": [0, 90, 0],
-			"translation": [2.75, 0, 0],
-			"scale": [0.9, 0.9, 0.9]
-		},
-		"head": {
-			"rotation": [-33, 0, 0],
-			"translation": [2, 10, -10]
-		},
-		"fixed": {
-			"rotation": [-34, 0, 0],
-			"translation": [4, 6.75, -5],
-			"scale": [2, 2, 2]
-		}
-	},
-	"groups": [
-		{
-			"name": "stripper pole",
-			"children": [0, 1, 2, 3]
-		},
-		{
-			"name": "flag",
-			"children": [4]
-		}
-	]
+  "credit": "Made_with_Blockbench",
+  "textures": {
+    "0": "custom/flags/pole",
+    "particle": "custom/flags/pole"
+  },
+  "elements": [
+    {
+      "from": [
+        5.7,
+        0,
+        7.7
+      ],
+      "to": [
+        6,
+        15.8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            0.3
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            0.3
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        6.3,
+        0,
+        7.7
+      ],
+      "to": [
+        6.6,
+        15.8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            0.3
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            0.3
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        0,
+        7.4
+      ],
+      "to": [
+        6.3,
+        15.8,
+        7.7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            0.3
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            0.3
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        0,
+        7.7
+      ],
+      "to": [
+        6.3,
+        15.8,
+        8.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.6,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.6,
+            15.8
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            0.6
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.3,
+            0.6
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        6.1,
+        9.7,
+        -1.4
+      ],
+      "to": [
+        6.2,
+        15.3,
+        7.4
+      ],
+      "color": 6,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.1,
+            5.6
+          ],
+          "texture": "#missing"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            8.8,
+            5.6
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.1,
+            5.6
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            8.8,
+            5.6
+          ],
+          "texture": "#missing"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.1,
+            8.8
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.1,
+            8.8
+          ],
+          "texture": "#missing"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        2,
+        7,
+        1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        -2,
+        7,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        4.25,
+        2.25,
+        0
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        0,
+        2.25,
+        0
+      ]
+    },
+    "ground": {
+      "translation": [
+        2.25,
+        8,
+        0.25
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        2.75,
+        0,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "head": {
+      "rotation": [
+        -33,
+        0,
+        0
+      ],
+      "translation": [
+        2,
+        10,
+        -10
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -34,
+        0,
+        0
+      ],
+      "translation": [
+        4,
+        6.75,
+        -5
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "stripper_pole",
+      "children": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "flag",
+      "children": [
+        4
+      ]
+    }
+  ]
 }

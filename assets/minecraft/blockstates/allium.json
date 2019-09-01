@@ -1,9 +1,15 @@
 {
-    "variants": {
-        "normal": [
-            { "model": "allium" },
-            { "model": "allium/0" },
-            { "model": "allium/1" }
-        ]
-    }
+  "variants": {
+    "": [
+      {
+        "model": "block/allium"
+      },
+      {
+        "model": "block/allium/0"
+      },
+      {
+        "model": "block/allium/1"
+      }
+    ]
+  }
 }
